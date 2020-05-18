@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body {
+    font-family: "Roboto";
+    color: "#363945";
+    background-color: #EDF5E1;
+}
+
+table, th, td {
+ border: 1px solid #C8C8C8;
+}
+
+
+td, th{
+ padding: 5px;
+}
+
+ul {
+    padding: 0;
+}
+
+.sweden-summary {
+    text-align: center;
+}
+
+.sweden-summary ul li {
+    list-style-type: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #4b4c4c;
+}
+
+.sweden-summary ul h4 {
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.flag-container {
+    width: 32px;
+    display: inline-block;
+    overflow:hidden;
+}
+
+.flag-image {
+    max-width: 32px;
+ 
+}
+
+.world-table {
+    margin: 0 auto;
+    background: white;
+    border-color: red;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.world-head th{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    max-width: 150px; 
+    font-size: 15.5px;
+    font-weight: 700;
+    color: #363945;
+    border: 1px solid #C8C8C8;
+    border-bottom: 2px solid #C8C8C8;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: white;
+}
+
+.world-table td{
+    font-family: 'Noto Sans', sans-serif;
+    max-width: 150px;
+    font-size: 15.5px;
+    font-weight: 400;
+    color: #363945;
+    border: 1px solid #C8C8C8;
+}

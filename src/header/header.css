@@ -1,0 +1,29 @@
+
+
+.header-container {
+    background-color: #009f80;
+    font-family: "Roboto";
+}
+
+.ml-auto {
+    margin-right: 100px;
+}
+
+.link-left {
+    margin-left: 50px;
+    
+}
+
+.ml-auto div {
+    margin: 0 20px;
+    color: white;
+}
+
+.nav-links {
+    color: #dfdfe5 !important;
+}
+
+.nav-links:hover {
+    color: white !important;
+    transition: 0.2s;
+}

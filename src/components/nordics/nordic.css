@@ -1,0 +1,19 @@
+.nordictable {
+    font-size: 18px;
+}
+
+.nordictable th {
+    font-weight: 600;
+}
+
+.nordictable th, td {
+    padding: 6px;
+}
+
+.chart-container {
+    width: 80%;
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 auto;
+}
